@@ -1,0 +1,30 @@
+<app-semaforo [formulario]="miFormulario"></app-semaforo>
+
+<div class="row">
+    <h3><u> Controlador </u></h3>
+</div> 
+
+<form [formGroup]="miFormulario">
+
+<div class="row d-flex  flex-direction-row">
+   
+        <div class="col-3 ">
+            <select class="form-select" aria-label="Default select example" formControlName="select">
+
+                <option value="1">Rojo</option>
+                <option value="2">Amarillo</option>
+                <option value="3">Verde</option>
+            </select>
+        </div>
+        <div class="col-6 ">
+            <div class="form-check">
+                <input formControlName="mode" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Encendido / Apagado
+                </label>
+            </div>
+        </div>
+       
+    
+</div>
+</form>

@@ -1,0 +1,21 @@
+<div class="container_trafficLight">
+
+    <div class="circle_trafficLight_back">
+
+        <div class="circle_trafficLight color_red" *ngIf="this.formulario.value.mode === true && this.formulario.value.select === '1'"></div>
+
+    </div>
+
+    <div class="circle_trafficLight_back">
+
+        <div class="circle_trafficLight color_yellow" *ngIf="this.formulario.value.mode === true && this.formulario.value.select === '2'"></div>
+
+    </div>
+
+    <div class="circle_trafficLight_back">
+
+        <div class="circle_trafficLight color_green" *ngIf="this.formulario.value.mode === true && this.formulario.value.select === '3'"></div>
+
+    </div>
+   
+</div>

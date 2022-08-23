@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+.container_trafficLight{
+    background-color: rgb(159, 159, 159);
+    width: 120px;
+    height: 340px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.circle_trafficLight{
+    background-color: rgb(252, 251, 249);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.circle_trafficLight_back{
+    background-color: rgb(72, 72, 71);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color_green{
+    background-color: rgb(0, 181, 0);
+}
+.color_yellow{
+    background-color: yellow;
+}
+.color_red{
+    background-color: red;
+}
