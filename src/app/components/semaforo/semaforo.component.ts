@@ -13,9 +13,6 @@ export class SemaforoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  verDatos(){
-    console.log(this.formulario.value)
-  }
+ 
 
 }

@@ -19,7 +19,5 @@ export class ControlesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  verDatos(){
-    console.log(this.miFormulario.value)
-  }
+  
 }
